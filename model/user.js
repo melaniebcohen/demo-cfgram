@@ -78,6 +78,8 @@ userSchema.methods.generateToken = function() {
   })
 }
 
+module.exports = mongoose.model('user', userSchema)
+
 /* WHITEBOARD
 username: catperson
 password: pw123
